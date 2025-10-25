@@ -1,0 +1,8 @@
+/* Project Card Hover Effects */
+.project-card:hover .project-image {
+  opacity: 0;
+}
+
+.project-card:hover .project-gif {
+  opacity: 1;
+}
