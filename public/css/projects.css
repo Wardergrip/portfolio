@@ -6,3 +6,12 @@
 .project-card:hover .project-gif {
   opacity: 1;
 }
+
+/* Footer border utilities */
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
