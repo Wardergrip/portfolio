@@ -2,206 +2,206 @@
 <html lang="en-BE">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/dist.css">
-    <link rel="stylesheet" href="./css/projects.css">
+	<link rel="stylesheet" href="./css/dist.css">
+	<link rel="stylesheet" href="./css/projects.css">
 
-    <script src="./js/theme.js"></script>
+	<script src="./js/theme.js"></script>
 
-    <title>HOME | Reï Messely / Wardergrip</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+	<title>HOME | Reï Messely / Wardergrip</title>
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
 </head>
 
 <body>
-    <script>loadTheme()</script>
-    <!-- if class = dark then dark mode enabled -->
-    <div class="w-full h-full min-h-screen dark:bg-neutral-800">
-        <div class="px-16">
-            <nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
-                <div>
+	<script>loadTheme()</script>
+	<!-- if class = dark then dark mode enabled -->
+	<div class="w-full h-full min-h-screen dark:bg-neutral-800">
+		<div class="px-16">
+			<nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
+				<div>
 
-                </div>
-                <div class="flex space-x-10 mt-8 md:mt-0">
-                    <a href=""
-                        class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
-                    <a href=""
-                        class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
-                    <a href=""
-                        class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Portfolio</a>
-                    <a href=""
-                        class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
-                </div>
-                <div class="flex">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
-                        onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
-                        onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                    </svg>
-                </div>
-            </nav>
-            <main class="mt-20 pb-96">
-                <div class="w-full flex flex-col justify-center items-center">
-                    <img src="assets/logo.png" class="w-96" alt="Raccoon head logo" title="I use a raccoon as mascotte">
-                    <h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-xl mb-2">
-                        Game Developer</h2>
-                    <h1 class="dark:text-gray-200 text-5xl font-bold">Reï Messely</h1>
-                    <h2 class="dark:text-neutral-400 text-3xl font-medium">Wardergrip</h2>
-                </div>
-                
-                <!-- Projects Section -->
-                <section class="mt-32 mb-20">
-                    <div class="text-center mb-16">
-                        <h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-4xl font-bold mb-4">
-                            My Work
-                        </h2>
-                        <p class="dark:text-neutral-400 text-lg">A showcase of my game development work</p>
-                    </div>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/Forefront/forefront_thumb.jpg" alt="Forefront thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/Forefront/forefront.gif" alt="Forefront footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Forefront</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Massive 32-player battles across a variety of expansive semi-destructive environments in VR!</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
-                                    <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
-                                    <span class="px-3 py-1 bg-pink-500 text-white text-xs rounded-full">VR</span>
-                                    <span class="px-3 py-1 bg-orange-500 text-white text-xs rounded-full">Photon Fusion</span>
-                                    <span class="px-3 py-1 bg-teal-500 text-white text-xs rounded-full">Live service</span>
-                                    <span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">Professional</span>
-                                </div>
-                            </div>
-                        </div>
+				</div>
+				<div class="flex space-x-10 mt-8 md:mt-0">
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Portfolio</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
+				</div>
+				<div class="flex">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
+						onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
+						onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+					</svg>
+				</div>
+			</nav>
+			<main class="mt-20 pb-96">
+				<div class="w-full flex flex-col justify-center items-center">
+					<img src="assets/logo.png" class="w-96" alt="Raccoon head logo" title="I use a raccoon as mascotte">
+					<h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-xl mb-2">
+						Game Developer</h2>
+					<h1 class="dark:text-gray-200 text-5xl font-bold">Reï Messely</h1>
+					<h2 class="dark:text-neutral-400 text-3xl font-medium">Wardergrip</h2>
+				</div>
+				
+				<!-- Projects Section -->
+				<section class="mt-32 mb-20">
+					<div class="text-center mb-16">
+						<h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-4xl font-bold mb-4">
+							My Work
+						</h2>
+						<p class="dark:text-neutral-400 text-lg">A showcase of my game development work</p>
+					</div>
+					
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/Forefront/forefront_thumb.jpg" alt="Forefront thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/Forefront/forefront.gif" alt="Forefront footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Forefront</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Massive 32-player battles across a variety of expansive semi-destructive environments in VR!</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
+									<span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
+									<span class="px-3 py-1 bg-pink-500 text-white text-xs rounded-full">VR</span>
+									<span class="px-3 py-1 bg-orange-500 text-white text-xs rounded-full">Photon Fusion</span>
+									<span class="px-3 py-1 bg-teal-500 text-white text-xs rounded-full">Live service</span>
+									<span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">Professional</span>
+								</div>
+							</div>
+						</div>
 
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/HyperDash/hyperdash.gif" alt="Hyper Dash footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Hyper Dash</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Fast paced mulitplayer movement shooter in VR inspired by Quake & Unreal tournament.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
-                                    <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
-                                    <span class="px-3 py-1 bg-pink-500 text-white text-xs rounded-full">VR</span>
-                                    <span class="px-3 py-1 bg-orange-500 text-white text-xs rounded-full">Photon Bolt</span>
-                                    <span class="px-3 py-1 bg-teal-500 text-white text-xs rounded-full">Live service</span>
-                                    <span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">Professional</span>
-                                </div>
-                            </div>
-                        </div>
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/HyperDash/hyperdash.gif" alt="Hyper Dash footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Hyper Dash</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Fast paced mulitplayer movement shooter in VR inspired by Quake & Unreal tournament.</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
+									<span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
+									<span class="px-3 py-1 bg-pink-500 text-white text-xs rounded-full">VR</span>
+									<span class="px-3 py-1 bg-orange-500 text-white text-xs rounded-full">Photon Bolt</span>
+									<span class="px-3 py-1 bg-teal-500 text-white text-xs rounded-full">Live service</span>
+									<span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">Professional</span>
+								</div>
+							</div>
+						</div>
 
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/Rogoto/rogoto_thumb.jpg" alt="Rogoto thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/Rogoto/rogoto.gif" alt="Rogoto footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Rogoto</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Automate, strategise and thrive in extracting gold from an alien planet. An automation, tower defense roguelike.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
-                                    <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
-                                </div>
-                            </div>
-                        </div>
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/Rogoto/rogoto_thumb.jpg" alt="Rogoto thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/Rogoto/rogoto.gif" alt="Rogoto footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Rogoto</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Automate, strategise and thrive in extracting gold from an alien planet. An automation, tower defense roguelike.</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
+									<span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
+								</div>
+							</div>
+						</div>
 
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/SquadForger/squadforger.gif" alt="Squad Forger footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Squad Forger</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Tool that solves an issue trying to organise competitive ARAM tournaments at my university</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
-                                    <span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">WPF</span>
-                                </div>
-                            </div>
-                        </div>
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/SquadForger/squadforger.gif" alt="Squad Forger footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Squad Forger</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Tool that solves an issue trying to organise competitive ARAM tournaments at my university</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
+									<span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">WPF</span>
+								</div>
+							</div>
+						</div>
 
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/ZombieSurvivalAI/zombiesurvivalai_thumb.jpg" alt="Zombie survival AI thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/ZombieSurvivalAI/zombiesurvivalai.gif" alt="Zombie survival AI footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Zombie survivor Game AI</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Game AI to survive a zombie game</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-purple-500 text-white text-xs rounded-full">C++</span>
-                                </div>
-                            </div>
-                        </div>
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/ZombieSurvivalAI/zombiesurvivalai_thumb.jpg" alt="Zombie survival AI thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/ZombieSurvivalAI/zombiesurvivalai.gif" alt="Zombie survival AI footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Zombie survivor Game AI</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Game AI to survive a zombie game</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-purple-500 text-white text-xs rounded-full">C++</span>
+								</div>
+							</div>
+						</div>
 
-                        <div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                            <div class="project-image-container relative overflow-hidden">
-                                <img src="assets/MedievalMadness/medievalmadness_thumb.jpg" alt="Medieval Madness thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
-                                <img src="assets/MedievalMadness/medievalmadness.gif" alt="Medieval Madness footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
-                            </div>
-                            <div class="p-6">
-                                <h3 class="dark:text-white text-xl font-bold mb-3">Medieval Madness</h3>
-                                <p class="dark:text-neutral-300 text-sm mb-4">Ragdoll based party arena fighter. Swing around and find out!</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
-                                    <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+						<div class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="assets/MedievalMadness/medievalmadness_thumb.jpg" alt="Medieval Madness thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="assets/MedievalMadness/medievalmadness.gif" alt="Medieval Madness footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Medieval Madness</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Ragdoll based party arena fighter. Swing around and find out!</p>
+								<div class="flex flex-wrap gap-2">
+									<span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full">C#</span>
+									<span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Unity</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                <div class="flex items-center w-1/3 gap-4 mx-auto mt-96 p-4 bg-neutral-700 shadow-2xl rounded-md">
-                    <img src="./assets/okay.png" class="w-[200px] h-[200px] rounded-full shadow-xl"
-                        alt="A nice picture of me" title="This is me!">
-                    <p class="dark:text-neutral-300 text-center">My name is Reï Messely but I go around the internet
-                        under the name Wardergrip.<br><br>
-                        I am interested in anything game development,
-                        specifically programming, engine tools & game design.</p>
-                </div>
-            </main>
+				<div class="flex items-center w-1/3 gap-4 mx-auto mt-96 p-4 bg-neutral-700 shadow-2xl rounded-md">
+					<img src="./assets/okay.png" class="w-[200px] h-[200px] rounded-full shadow-xl"
+						alt="A nice picture of me" title="This is me!">
+					<p class="dark:text-neutral-300 text-center">My name is Reï Messely but I go around the internet
+						under the name Wardergrip.<br><br>
+						I am interested in anything game development.
+						Specifically programming, engine tools & game design.</p>
+				</div>
+			</main>
 
-        </div>
-        
-        <footer class="w-full dark:bg-neutral-950 py-16">
-            <div class="px-16">
-                <div class="flex flex-col md:flex-row items-center justify-center gap-16">
-                    <a href="https://github.com/Wardergrip" target="_blank">
-                        <img src="assets/githubFilled.png" width="80rem" 
-                            alt="GitHub logo" title="Link to my GitHub account">
-                    </a>
-                    <a href="mailto:rei.messely@gmail.com" target="_blank">
-                        <img src="assets/mail.png" width="80rem"
-                            alt="Mail: rei.messely@gmail.com" title="Shortcut to my email">
-                    </a>
-                    <a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank">
-                        <img src="assets/linkedInFilled.png" width="80rem"
-                            alt="LinkedIn logo" title="Link to my LinkedIn page">
-                    </a>
-                    <a href="https://twitter.com/Wardergrip" target="_blank">
-                        <img src="assets/twitterFilled.png" width="80rem"
-                            alt="Twitter logo" title="Link to my Twitter">
-                    </a>
-                </div>
-            </div>
-        </footer>
-    </div>
+		</div>
+		
+		<footer class="w-full dark:bg-neutral-950 py-16">
+			<div class="px-16">
+				<div class="flex flex-col md:flex-row items-center justify-center gap-16">
+					<a href="https://github.com/Wardergrip" target="_blank">
+						<img src="assets/githubFilled.png" width="80rem" 
+							alt="GitHub logo" title="Link to my GitHub account">
+					</a>
+					<a href="mailto:rei.messely@gmail.com" target="_blank">
+						<img src="assets/mail.png" width="80rem"
+							alt="Mail: rei.messely@gmail.com" title="Shortcut to my email">
+					</a>
+					<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank">
+						<img src="assets/linkedInFilled.png" width="80rem"
+							alt="LinkedIn logo" title="Link to my LinkedIn page">
+					</a>
+					<a href="https://twitter.com/Wardergrip" target="_blank">
+						<img src="assets/twitterFilled.png" width="80rem"
+							alt="Twitter logo" title="Link to my Twitter">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>
