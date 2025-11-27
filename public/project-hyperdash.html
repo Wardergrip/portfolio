@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-BE">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/dist.css">
+	<link rel="stylesheet" href="./css/projects.css">
+
+	<script src="./js/theme.js"></script>
+
+	<title>Hyper Dash | Reï Messely / Wardergrip</title>
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<script>loadTheme()</script>
+	<div class="w-full h-full min-h-screen dark:bg-neutral-800">
+		<div class="px-16">
+			<nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
+				<div>
+
+				</div>
+				<div class="flex space-x-10 mt-8 md:mt-0">
+					<a href="index.html"
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
+					<a href="projects.html"
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Projects</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
+				</div>
+				<div class="flex">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
+						onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
+						onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+					</svg>
+				</div>
+			</nav>
+			<main class="mt-20 pb-96">
+				<a href="projects.html" class="inline-flex items-center text-sm dark:text-neutral-400 dark:hover:text-white mb-8 transition-colors">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+					</svg>
+					Back to Projects
+				</a>
+
+				<div class="max-w-2xl mx-auto">
+					<div class="mb-12">
+						<h1 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-5xl font-bold mb-4">
+							Hyper Dash
+						</h1>
+						<p class="dark:text-neutral-300 text-xl mb-6">
+							Fast paced mulitplayer movement shooter in VR inspired by Quake & Unreal tournament.
+						</p>
+					</div>
+
+					<div class="mb-12">
+						<img src="assets/HyperDash/hyperdash.gif" alt="Hyper Dash gameplay" class="w-full rounded-lg shadow-2xl">
+					</div>
+
+					<div class="mb-12">
+						<h2 class="dark:text-white text-3xl font-bold mb-6">About</h2>
+						<div class="dark:text-neutral-300 space-y-4 text-lg">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+							</p>
+						</div>
+					</div>
+
+					<div class="mb-12">
+						<h2 class="dark:text-white text-3xl font-bold mb-6">Screenshots</h2>
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+							<img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash screenshot 1" class="w-full rounded-lg shadow-xl">
+							<img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash screenshot 2" class="w-full rounded-lg shadow-xl">
+							<img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash screenshot 3" class="w-full rounded-lg shadow-xl">
+							<img src="assets/HyperDash/hyperdash_thumb.jpg" alt="Hyper Dash screenshot 4" class="w-full rounded-lg shadow-xl">
+						</div>
+					</div>
+
+					<div class="mb-12">
+						<h2 class="dark:text-white text-3xl font-bold mb-6">Technologies</h2>
+						<div class="flex flex-wrap gap-3">
+							<span class="px-4 py-2 bg-blue-500 text-white text-sm rounded-full">C#</span>
+							<span class="px-4 py-2 bg-green-500 text-white text-sm rounded-full">Unity</span>
+							<span class="px-4 py-2 bg-pink-500 text-white text-sm rounded-full">VR</span>
+							<span class="px-4 py-2 bg-orange-500 text-white text-sm rounded-full">Photon Bolt</span>
+							<span class="px-4 py-2 bg-teal-500 text-white text-sm rounded-full">Live service</span>
+							<span class="px-4 py-2 bg-indigo-500 text-white text-sm rounded-full">Professional</span>
+						</div>
+					</div>
+				</div>
+			</main>
+
+		</div>
+		
+		<footer class="w-full dark:bg-neutral-950 py-12 border-t border-neutral-800">
+			<div class="px-16">
+				<div class="flex flex-col items-center justify-center gap-6">
+					<div class="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+						<a href="https://github.com/Wardergrip" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							GitHub
+						</a>
+						<a href="mailto:rei.messely@gmail.com" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							Email
+						</a>
+						<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							LinkedIn
+						</a>
+						<a href="https://wardergrip.itch.io/" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							Itch.io
+						</a>
+					</div>
+					<p class="text-xs text-white text-center mt-8">
+						© 2024 Reï Messely / Wardergrip
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
+
