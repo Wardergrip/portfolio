@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-BE">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/dist.css">
+	<link rel="stylesheet" href="./css/projects.css">
+
+	<script src="./js/theme.js"></script>
+
+	<title>MORE | Reï Messely / Wardergrip</title>
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<script>loadTheme()</script>
+	<!-- if class = dark then dark mode enabled -->
+	<div class="w-full h-full min-h-screen dark:bg-neutral-800">
+		<div class="px-16">
+			<nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
+	<div>
+
+	</div>
+	<div class="flex space-x-10 mt-8 md:mt-0">
+		<a href="index.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
+		<a href=""
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
+		<a href="projects.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Projects</a>
+		<a href=""
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
+	</div>
+	<div class="flex">
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
+			onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
+			stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+		</svg>
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
+			onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
+			stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+		</svg>
+	</div>
+</nav>
+			<main class="mt-20 pb-96">
+			
+				<!-- More Section -->
+				<!--
+				* LAN parties (+ student clubs)
+				* Ichthus
+				* Albion Online Guides
+				* Albion Online guilds
+				* git gud --fast
+				* Castle siege
+				-->
+				<section class="mt-32 mb-20">
+					<div class="text-center mb-16">
+						<h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-4xl font-bold mb-4">
+							And more...
+						</h2>
+						<p class="dark:text-neutral-400 text-lg">A showcase of other noteworthy projects</p>
+					</div>
+					
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="LAN thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="LAN footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">LAN parties (+ student clubs)</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Main driver and person responsible for various LAN parties & student clubs</p>
+							</div>
+						</a>
+
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="Ichthus thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="Ichthus footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Ichthus</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Ichthus Kortrijk is my local pentacostal church where I contribute as livestream member</p>
+							</div>
+						</a>
+
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="Albion Online guides thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="Albion Online guides footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Guides for Albion Online</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Guides I made to contribute to the Albion Online community</p>
+							</div>
+						</a>
+
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="Albion Online guilds thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="Albion Online guilds footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Albion Online guilds</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">My first venture in people management, starting as guild officer and growing into shotcaller & second in command</p>
+							</div>
+						</a>
+
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="git crashcourse thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="git crashcourse footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">git gud --fast</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Crashcourse git presentation given in the university of Howest</p>
+							</div>
+						</a>
+
+						<a href="" class="project-card bg-neutral-700 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+							<div class="project-image-container relative overflow-hidden">
+								<img src="" alt="Castle siege thumbnail" class="project-image w-full h-48 object-cover transition-transform duration-300">
+								<img src="" alt="Castle siege footage" class="project-gif w-full h-48 object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+							</div>
+							<div class="p-6">
+								<h3 class="dark:text-white text-xl font-bold mb-3">Minecraft Castle siege</h3>
+								<p class="dark:text-neutral-300 text-sm mb-4">Collaborating with a Minecraft YouTuber for an epic castle siege video (and event)</p>
+							</div>
+						</a>
+					</div>
+				</section>
+				<section class="mt-32 mb-20"> 
+			</main>
+
+		</div>
+		
+		<footer class="w-full dark:bg-neutral-950 py-12 border-t border-neutral-800">
+	<div class="px-16">
+		<div class="flex flex-col items-center justify-center gap-6">
+			<div class="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+				<a href="https://github.com/Wardergrip" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					GitHub
+				</a>
+				<a href="mailto:rei.messely@gmail.com" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					Email
+				</a>
+				<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					LinkedIn
+				</a>
+				<a href="https://wardergrip.itch.io/" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					Itch.io
+				</a>
+			</div>
+			<p class="text-xs text-white text-center mt-8">
+				© 2024 Reï Messely / Wardergrip
+			</p>
+		</div>
+	</div>
+</footer>
+	</div>
+</body>
+
+</html>
