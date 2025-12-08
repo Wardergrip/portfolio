@@ -1,3 +1,5 @@
 # Portfolio
 
-This is the code and markup for my portfolio website. Made without any web dev experience with the help of AI tools (Cursor & ChatGPT)
+This is the code and markup for my portfolio website. 
+
+Initial work was solely done by me, later on I used Cursor & ChatGPT to aid me. 
