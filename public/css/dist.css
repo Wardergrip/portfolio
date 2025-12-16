@@ -1172,6 +1172,11 @@ video {
   color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
+:is(:where(.dark) .dark\:text-neutral-500) {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
 :is(:where(.dark) .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
