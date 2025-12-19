@@ -14,27 +14,34 @@ function readComponent(componentName) {
 	}
 }
 
+function replaceComponent(html, name, componentHtml) {
+	const pattern = new RegExp(
+		`<!-- COMPONENT:${name} -->[\\s\\S]*?<!-- \\/COMPONENT:${name} -->`,
+		'g'
+	);
+
+	return html.replace(
+		pattern,
+		`<!-- COMPONENT:${name} -->\n${componentHtml}\n<!-- /COMPONENT:${name} -->`
+	);
+}
+
 function injectComponents(htmlContent, navHtml, footerHtml, projectsOverviewHtml) {
-	htmlContent = htmlContent.replace(
-		/<div id="nav-container"><\/div>/g,
-		navHtml
-	);
-	
-	htmlContent = htmlContent.replace(
-		/<div id="footer-container"><\/div>/g,
-		footerHtml
-	);
-	
-	// Handle projects overview - replace comment with component content
-	if (projectsOverviewHtml) {
-		htmlContent = htmlContent.replace(
-			/<!-- Projects Section -->\s*/g,
-			projectsOverviewHtml + '\n\t\t\t\t'
-		);
+	if (navHtml) {
+		htmlContent = replaceComponent(htmlContent, 'nav', navHtml);
 	}
-	
+
+	if (projectsOverviewHtml) {
+		htmlContent = replaceComponent(htmlContent, 'projects-overview', projectsOverviewHtml);
+	}
+
+	if (footerHtml) {
+		htmlContent = replaceComponent(htmlContent, 'footer', footerHtml);
+	}
+
 	return htmlContent;
 }
+
 
 function buildComponents() {
 	console.log('Building components...');
@@ -55,16 +62,10 @@ function buildComponents() {
 	let processedCount = 0;
 	htmlFiles.forEach(filePath => {
 		const htmlContent = fs.readFileSync(filePath, 'utf8');
-		const needsProcessing = htmlContent.includes('nav-container') || 
-		                        htmlContent.includes('footer-container') ||
-		                        htmlContent.includes('<!-- Projects Section -->');
-		
-		if (needsProcessing) {
-			const updatedContent = injectComponents(htmlContent, navHtml, footerHtml, projectsOverviewHtml);
-			fs.writeFileSync(filePath, updatedContent, 'utf8');
-			processedCount++;
-			console.log(`  Processed ${path.basename(filePath)}`);
-		}
+		const updatedContent = injectComponents(htmlContent, navHtml, footerHtml, projectsOverviewHtml);
+		fs.writeFileSync(filePath, updatedContent, 'utf8');
+		processedCount++;
+		console.log(`  Processed ${path.basename(filePath)}`);
 	});
 	
 	console.log(`\nSUCCESS! Components injected into ${processedCount} file(s)`);
