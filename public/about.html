@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-BE">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/dist.css">
+	<link rel="stylesheet" href="./css/projects.css">
+
+	<script src="./js/theme.js"></script>
+
+	<title>ABOUT | Reï Messely / Wardergrip</title>
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<script>loadTheme()</script>
+	<!-- if class = dark then dark mode enabled -->
+	<div class="w-full h-full min-h-screen dark:bg-neutral-800">
+		<div class="px-16">
+			<nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
+				<div>
+
+				</div>
+				<div class="flex space-x-10 mt-8 md:mt-0">
+					<a href="index.html"
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
+					<a href="about.html"
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
+					<a href="projects.html"
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Projects</a>
+					<a href=""
+						class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
+				</div>
+				<div class="flex">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
+						onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
+						onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+					</svg>
+				</div>
+			</nav>
+			<main class="mt-20 pb-96">
+				<div class="max-w-3xl mx-auto">
+					<div class="w-full flex flex-col justify-center items-center mb-16">
+						<img src="assets/logo.png" class="w-96" alt="Raccoon head logo" title="I use a raccoon as mascotte">
+						<h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-xl mb-2">
+							Game Developer</h2>
+						<h1 class="dark:text-gray-200 text-5xl font-bold">Reï Messely</h1>
+						<h2 class="dark:text-neutral-400 text-3xl font-medium">Wardergrip</h2>
+					</div>
+
+					<!-- About Section -->
+					<section>
+					<div class="flex flex-col md:flex-row items-center gap-8 mb-12 p-8 bg-neutral-700 shadow-2xl rounded-lg">
+						<img src="./assets/okay.png" class="w-[200px] h-[200px] rounded-full shadow-xl flex-shrink-0"
+							alt="A nice picture of me" title="This is me!">
+						<div class="flex-1">
+							<h2 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-3xl font-bold mb-4">
+								About me
+							</h2>
+							<p class="dark:text-neutral-300 text-lg leading-relaxed">
+								Cooperation, <strong class="dark:text-white">teamwork</strong>, honesty and transparency is what I value the most in life.
+								<br><br>
+								I am interested in anything game development.
+								Specifically <strong class="dark:text-white">programming</strong>, engine tools & game design.
+								<br><br>
+								I've often been described as <strong class="dark:text-white">motivated, communicative, a quick learner and helpful</strong>.
+								<br><br>
+								Besides video games, I love <a href="https://boardgamegeek.com/collection/user/Wardergrip"><u>board games</u></a>, video essays and lore.
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-cols-1 gap-8 mb-12">
+						<div class="bg-neutral-700 p-6 rounded-lg shadow-xl">
+							<h3 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-2xl font-bold mb-4">
+								Skills
+							</h3>
+							<div class="space-y-3">
+								<div>
+									<p class="dark:text-white font-semibold mb-2">Programming Languages</p>
+									<div class="flex flex-wrap gap-2">
+										<span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">C#</span>
+										<span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">C++</span>
+										<span class="px-3 py-1 bg-neutral-500 text-white text-sm rounded-full">Python</span>
+										<span class="px-3 py-1 bg-neutral-500 text-white text-sm rounded-full">Lua</span>
+									</div>
+								</div>
+								<div>
+									<p class="dark:text-white font-semibold mb-2">Game Engines & Tools</p>
+									<div class="flex flex-wrap gap-2">
+										<span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Unity</span>
+										<span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Git</span>
+										<span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Photon</span>
+										<span class="px-3 py-1 bg-neutral-500 text-white text-sm rounded-full">Unreal Engine</span>
+										<span class="px-3 py-1 bg-neutral-500 text-white text-sm rounded-full">WPF</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<section class="mt-32 mb-32 max-w-6xl mx-auto px-4">
+						<div class="relative">
+							<!-- Vertical line -->
+							<div class="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-neutral-600"></div>
+
+							<!-- 2026 -->
+							<div class="mb-24 flex items-center w-full flex-row-reverse">
+								<div class="w-1/2 pl-12 text-left">
+									<h3 class="dark:text-white text-xl font-bold">
+										Gameplay Programmer
+									</h3>
+									<p class="text-sm text-blue-400 mb-2">
+										Nov 2025 – Present · Triangle Factory
+									</p>
+									<p class="dark:text-neutral-300 text-sm leading-relaxed">
+										Working on updates for award winning Forefront
+									</p>
+								</div>
+
+								<div class="relative z-10 flex items-center justify-center px-3 py-1 min-w-[3rem] rounded-full bg-blue-500 text-white text-sm font-bold shadow-lg">
+									2026
+								</div>
+
+								<!-- Images -->
+								<div class="w-1/2 pr-12 flex flex-col gap-4">
+									<img src="assets/Forefront/forefront_thumb.jpg"
+										class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300"
+										alt="Forefront">
+								</div>
+							</div>
+
+							<!-- 2025 -->
+							<div class="mb-24 flex items-center w-full">
+								<div class="w-1/2 pr-12 text-right">
+									<h3 class="dark:text-white text-xl font-bold">
+										Lead Game Developer
+									</h3>
+									<p class="text-sm text-blue-400 mb-2">
+										Feb 2025 – Nov 2025 · Triangle Factory
+									</p>
+									<p class="dark:text-neutral-300 text-sm leading-relaxed">
+										Responsible for delivering updates with a small team.
+									</p>
+								</div>
+
+								<!-- Dot -->
+								<div class="relative z-10 flex items-center justify-center px-3 py-1 min-w-[3rem] rounded-full bg-blue-500 text-white text-sm font-bold shadow-lg">
+									2025
+								</div>
+
+								<!-- Images -->
+								<div class="w-1/2 pl-12 flex flex-col gap-4">
+									<img src="assets/HyperDash/hyperdash_thumb_alt.jpg"
+										class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300"
+										alt="HyperDash: Sword update">
+								</div>
+							</div>
+
+							<!-- 2024 -->
+							<div class="mb-24 flex items-center w-full flex-row-reverse">
+								<div class="w-1/2 pl-12 text-left">
+									<h3 class="dark:text-white text-xl font-bold">
+										Graphics & Tools Programmer
+									</h3>
+									<p class="text-sm text-blue-400 mb-2">
+										Jun 2024 – Feb 2025 · Triangle Factory
+									</p>
+									<p class="dark:text-neutral-300 text-sm leading-relaxed">
+										Researched and implemented optimizations for Forefront.<br>
+										Set up and maintained level setup pipeline. Developed engine tools for artists. <br>
+									</p>
+								</div>
+
+								<div class="relative z-10 flex items-center justify-center px-3 py-1 min-w-[3rem] rounded-full bg-blue-500 text-white text-sm font-bold shadow-lg">
+									2024
+								</div>
+
+								<!-- Images -->
+								<div class="w-1/2 pr-12 flex flex-col gap-4">
+									<img src="assets/Forefront/forefront_thumb.jpg"
+										class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300"
+										alt="Forefront">
+								</div>
+							</div>
+
+							<div class="flex items-center w-full">
+								<div class="w-1/2 pr-12 text-right">
+									<h3 class="dark:text-white text-xl font-bold">
+										Intern Game Developer
+									</h3>
+									<p class="text-sm text-blue-400 mb-2">
+										Feb 2024 – Jun 2024 · Triangle Factory
+									</p>
+									<p class="dark:text-neutral-300 text-sm leading-relaxed">
+										Working on updates for Hyper dash.<br>
+										Bugfixes, QoL, gameplay features and anti-cheat measures.
+									</p>
+								</div>
+
+								<div class="relative z-10 flex items-center justify-center px-3 py-1 min-w-[3rem] rounded-full text-sm font-bold shadow-lg">
+								</div>
+
+								<!-- Images -->
+								<div class="w-1/2 pl-12 flex flex-col gap-4">
+									<img src="assets/HyperDash/hyperdash_thumb.jpg"
+										class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300"
+										alt="HyperDash">
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="bg-neutral-700 p-6 rounded-lg shadow-xl">
+						<h3 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-2xl font-bold mb-4">
+							Get In Touch
+						</h3>
+						<p class="dark:text-neutral-300 mb-4">
+							I'm always open to discussing game development, collaboration opportunities, or just having a chat about games!
+						</p>
+						<div class="flex flex-wrap gap-4">
+							<a href="https://github.com/Wardergrip" target="_blank"
+								class="px-4 py-2 bg-neutral-600 hover:bg-neutral-500 text-white rounded-lg transition-colors duration-200">
+								GitHub
+							</a>
+							<a href="mailto:rei.messely@gmail.com" target="_blank"
+								class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors duration-200">
+								Email Me
+							</a>
+							<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank"
+								class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-200">
+								LinkedIn
+							</a>
+							<a href="https://wardergrip.itch.io/" target="_blank"
+								class="px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors duration-200">
+								Itch.io
+							</a>
+						</div>
+					</div>
+					</section>
+				</div>
+			</main>
+
+		</div>
+		
+		<footer class="w-full dark:bg-neutral-950 py-12 border-t border-neutral-800">
+			<div class="px-16">
+				<div class="flex flex-col items-center justify-center gap-6">
+					<div class="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+						<a href="https://github.com/Wardergrip" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							GitHub
+						</a>
+						<a href="mailto:rei.messely@gmail.com" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							Email
+						</a>
+						<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							LinkedIn
+						</a>
+						<a href="https://wardergrip.itch.io/" target="_blank"
+							class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+							Itch.io
+						</a>
+					</div>
+					<p class="text-xs text-white text-center mt-8">
+						© 2024 Reï Messely / Wardergrip
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
+
