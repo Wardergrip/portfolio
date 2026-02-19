@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-BE">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/dist.css">
+	<link rel="stylesheet" href="./css/projects.css">
+
+	<script src="./js/theme.js"></script>
+
+	<title>Ichthus | Reï Messely / Wardergrip</title>
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<script>loadTheme()</script>
+	<div class="w-full h-full min-h-screen dark:bg-neutral-800">
+		<div class="px-16">
+<!-- COMPONENT:nav -->
+<nav class="flex flex-col md:flex-row items-center justify-between w-full pt-8">
+	<div>
+
+	</div>
+	<div class="flex space-x-10 mt-8 md:mt-0">
+		<a href="index.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Home</a>
+		<a href="about.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">About</a>
+		<a href="projects.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">Projects</a>
+		<a href="more.html"
+			class="text-sm dark:text-white px-3 hover:border-b-2 border-blue-500 transition-colors hover:-mb-2">More</a>
+	</div>
+	<div class="flex">
+		<!-- Might bring back lightmode later
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 dark:hidden block cursor-pointer"
+			onclick="setTheme(true)" id="enableDarkMode" fill="none" viewBox="0 0 24 24"
+			stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+		</svg>
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hidden dark:block cursor-pointer"
+			onclick="setTheme(false)" id="enableLightMode" fill="none" viewBox="0 0 24 24"
+			stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+		</svg>
+		-->
+	</div>
+</nav>
+<!-- /COMPONENT:nav -->
+			<main class="mt-20 pb-96">
+				<a href="more.html" class="inline-flex items-center text-sm dark:text-neutral-400 dark:hover:text-white mb-8 transition-colors">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+					</svg>
+					Back
+				</a>
+
+				<div class="max-w-2xl mx-auto">
+					<div class="mb-12">
+						<h1 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-5xl font-bold mb-4">
+							Ichthus
+						</h1>
+						<p class="dark:text-neutral-300 text-xl mb-6">
+							Ichthus Kortrijk is my local pentacostal church where I contribute as livestream member
+						</p>
+					</div>
+
+					<div class="mb-12">
+						<a href="https://www.ichthus.be/"><img src="assets/Ichthus/ichthus_banner.jpg"/></a>
+					</div>
+
+					<!--TODO: Make <a> pop & bold keywords-->
+					<div class="mb-12">
+						<h2 class="dark:text-white text-3xl font-bold mb-6">About</h2>
+						<div class="dark:text-neutral-300 space-y-4 text-lg">
+							<p>
+								Ichthus is the church I grew up in and eventually contributed to. As a young teen I would try to help
+								out with supervising the toddlers but when the pandemic hit there was a need to stay connected and do sermons.
+								Someone took initiative and started streaming from their Iphone, it worked and it was suprisingly high quality.
+								After a while, they kickstarted the livestream team which I joined.
+							</p>
+							<p>
+								Many of us did not have much experience, I had the most experience as I streamed on Twitch before and I knew about OBS.
+								Because of that, I initially was tasked with figuring out all software of the stream. My dad and oldest brother were 
+								also on the team, which made collaboration fun and enjoyable.
+							</p>
+							<p>
+								Over time we evolved from webcams and a small room in our church to the main hall where we usually have our sermons.
+								We switched to a Canon camera from my dad and a random video recorder, fed them through a low quality HMDI to USB and plugged it in the laptop.
+								In a way, it was beautifully simple but looking back it was also definitely amateuristic.
+								Now we have 2 high quality, remote controlled camera's, robust setup both in software and hardware and several ways to setup.
+							</p>
+							<p>
+								Besides the livestreaming and camera's, I also volunteer to translate the sermon or anything to English as the sermons are
+								usually given in Dutch.
+							</p>
+						</div>
+					</div>
+
+					<div class="mb-12">
+						<h2 class="dark:text-white text-3xl font-bold mb-6">Screenshots</h2>
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+							<img src="assets/Ichthus/ichthus1.jpg" alt="Ichthus screenshot 1" class="w-full rounded-lg shadow-xl">
+							<img src="assets/Ichthus/ichthus2.jpg" alt="Ichthus screenshot 2" class="w-full rounded-lg shadow-xl">
+							<img src="assets/Ichthus/ichthus3.jpg" alt="Ichthus screenshot 3" class="w-full rounded-lg shadow-xl">
+							<img src="assets/Ichthus/ichthus_banner.jpg" alt="Ichthus banner" class="w-full rounded-lg shadow-xl">
+						</div>
+					</div>
+				</div>
+			</main>
+
+		</div>
+		
+		<footer class="w-full dark:bg-neutral-950 py-12 border-t border-neutral-800">
+	<div class="px-16">
+		<div class="flex flex-col items-center justify-center gap-6">
+			<div class="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+				<a href="https://github.com/Wardergrip" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					GitHub
+				</a>
+				<a href="mailto:rei.messely@gmail.com" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					Email
+				</a>
+				<a href="https://www.linkedin.com/in/re%C3%AF-messely-68522523a/" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					LinkedIn
+				</a>
+				<a href="https://wardergrip.itch.io/" target="_blank"
+					class="text-sm dark:text-neutral-400 dark:hover:text-white px-3 py-2 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
+					Itch.io
+				</a>
+			</div>
+			<p class="text-xs text-white text-center mt-8">
+				© 2024 Reï Messely / Wardergrip
+			</p>
+		</div>
+	</div>
+</footer>
+	</div>
+</body>
+
+</html>
+
