@@ -63,7 +63,7 @@
 				<div class="max-w-2xl mx-auto">
 					<div class="mb-12">
 						<h1 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-5xl font-bold mb-4">
-							Squad Forger <a href="https://github.com/League-of-DAE-Legends/SquadForger" target="_blank">🔗</a>
+							Squad Forger
 						</h1>
 						<p class="dark:text-neutral-300 text-xl mb-6">
 							Tool that solves an issue trying to organise competitive ARAM tournaments at my university
@@ -71,38 +71,41 @@
 					</div>
 
 					<div class="mb-12">
-						<img src="assets/SquadForger/squadforger.gif" alt="Squad Forger screenshot" class="w-full rounded-lg shadow-2xl">
+						<a href="https://github.com/League-of-DAE-Legends/SquadForger" target="_blank"><img src="assets/SquadForger/squadforger.gif" alt="Squad Forger screenshot" class="w-full rounded-lg shadow-2xl"></a>
+					</div>
+
+					<div class="mb-10">
+						<a href="https://github.com/League-of-DAE-Legends/SquadForger" target="_blank"
+														class="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg transition-colors duration-200">
+														GitHub
+						</a>
 					</div>
 
 					<div class="mb-12">
 						<h2 class="dark:text-white text-3xl font-bold mb-6">About</h2>
 						<div class="dark:text-neutral-300 space-y-4 text-lg">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								During my time in university <span class="text-cyan-400">I started the League of DAE Legends club</span>. 
+								The aim was to <span class="text-cyan-400">bring people together</span> and show that this community has a wholesome side.
 							</p>
 							<p>
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								When organising an ARAM tournament (All Random All Mid) we did not like that the random picking was different to how ARAM 
+								usually is played. To solve this, we <span class="text-cyan-400">made an open source tool</span> similar as 
+								we were taught in the course tool development. It uses the 
+								<b><a href="https://developer.riotgames.com/apis" target="_blank">Riot API</a></b> for the list of champions 
+								for that version and it <span class="text-cyan-400">generates a random pool of champions for each team</span> in the bracket. 
+								That gets formatted and <span class="text-cyan-400">sent to a Discord webhook</span>.
 							</p>
 							<p>
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								We also had the foresight of allowing people to implement their <span class="text-cyan-400">own ways of supplying teams</span>, 
+								in case they have it in JSON format for example (we use CSV). We also embed a list of champions of a specific version 
+								<span class="text-cyan-400">to fall back to</span>.
 							</p>
-						</div>
-					</div>
-
-					<div class="mb-12">
-						<h2 class="dark:text-white text-3xl font-bold mb-6">Screenshots</h2>
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-							<img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger screenshot 1" class="w-full rounded-lg shadow-xl">
-							<img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger screenshot 2" class="w-full rounded-lg shadow-xl">
-							<img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger screenshot 3" class="w-full rounded-lg shadow-xl">
-							<img src="assets/SquadForger/squadforger_thumb.jpg" alt="Squad Forger screenshot 4" class="w-full rounded-lg shadow-xl">
-						</div>
-					</div>
-
-					<div class="mb-12">
-						<div class="flex flex-wrap gap-3">
-							<span class="px-4 py-2 bg-blue-500 text-white text-sm rounded-full">C#</span>
-							<span class="px-4 py-2 bg-indigo-500 text-white text-sm rounded-full">WPF</span>
+							<p>
+								This was a very fun and satisfying project to work in, 
+								although it probably did not save us much time as we hoped, 
+								it allowed others to use it for their own custom matches.
+							</p>
 						</div>
 					</div>
 				</div>
