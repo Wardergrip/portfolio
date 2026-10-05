@@ -2,9 +2,9 @@
 
 This is the code and markup for my portfolio website. 
 
-Initial work was solely done by me, later on I used Cursor & ChatGPT to aid me. 
+Initial work was solely done by me, later on I did use LLMs
 
-I usually do not use AI tooling often, the reason I used it more here is because web development is not my area of expertise and I do not know the terminology or common approaches to solve certain problems.
+The reason I used it more here is because web development is not my area of expertise and I do not know the terminology or common approaches to solve certain problems. I try to balance my AI use and make sure I understand everything, which is also the case here.
 
 ## Technical details
 
