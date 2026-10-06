@@ -16,13 +16,14 @@ function setTheme(darkMode)
 
 function loadTheme() 
 {
-    const mode = localStorage.getItem('theme')
-    if (mode == false) 
-    {
-        setTheme(true)
-    }
-    else
-    {
-        setTheme(mode === 'dark')
-    }
+    setTheme(true)
+    // const mode = localStorage.getItem('theme')
+    // if (mode == false) 
+    // {
+    //     setTheme(true)
+    // }
+    // else
+    // {
+    //     setTheme(mode === 'dark')
+    // }
 }
