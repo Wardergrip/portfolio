@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build-components.js && npx tailwindcss -i base.css -o ./public/css/dist.css",
+    "build": "node build-components.js && npx tailwindcss -i base.css -o ./docs/css/dist.css",
     "build:components": "node build-components.js",
-    "dev": "npx tailwindcss -i base.css -o ./public/css/dist.css --watch"
+    "dev": "npx tailwindcss -i base.css -o ./docs/css/dist.css --watch"
   },
   "author": "",
   "license": "ISC",

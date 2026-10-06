@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const publicDir = path.join(__dirname, 'public');
-const componentsDir = path.join(publicDir, 'components');
+const docsDir = path.join(__dirname, 'docs');
+const componentsDir = path.join(docsDir, 'components');
 
 function readComponent(componentName) {
 	const filePath = path.join(componentsDir, `${componentName}.html`);
@@ -55,9 +55,9 @@ function buildComponents() {
 		process.exit(1);
 	}
 	
-	const htmlFiles = fs.readdirSync(publicDir)
+	const htmlFiles = fs.readdirSync(docsDir)
 		.filter(file => file.endsWith('.html'))
-		.map(file => path.join(publicDir, file));
+		.map(file => path.join(docsDir, file));
 	
 	let processedCount = 0;
 	htmlFiles.forEach(filePath => {
